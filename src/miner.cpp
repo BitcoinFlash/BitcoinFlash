@@ -282,8 +282,16 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
 
         }
 
-        // NOTE: unlike in bitcoin, we need to pass PREVIOUS block height here
+        int nCurrentBlockHeight = pindexPrev->nHeight + 1;
+
+        // NOTE: unlike in bitcoin, we need to pass PREVIOUS block height here in GetBlockSubsidy
         CAmount blockReward = nFees + GetBlockSubsidy(pindexPrev->nBits, pindexPrev->nHeight, Params().GetConsensus());
+
+        // Exception for the fork block
+        if (nCurrentBlockHeight == Params().GetConsensus().BTFHeight)
+        {
+            blockReward = nFees + Params().GetConsensus().BTFInitialBudget;
+        }
 
         // Compute regular coinbase transaction.
         txNew.vout[0].nValue = blockReward;
@@ -291,7 +299,10 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
 
         // Update coinbase transaction with additional info about masternode and governance payments,
         // get some info back to pass to getblocktemplate
-        FillBlockPayments(txNew, nHeight, blockReward, pblock->txoutMasternode, pblock->voutSuperblock);
+        // Only after the fork block
+        if (nCurrentBlockHeight > Params().GetConsensus().BTFHeight) {
+            FillBlockPayments(txNew, nHeight, blockReward, pblock->txoutMasternode, pblock->voutSuperblock);
+        }
         // LogPrintf("CreateNewBlock -- nBlockHeight %d blockReward %lld txoutMasternode %s txNew %s",
         //             nHeight, blockReward, pblock->txoutMasternode.ToString(), txNew.ToString());
 
@@ -455,6 +466,15 @@ void static BitcoinMiner(const CChainParams& chainparams, CConnman& connman)
             //
             int64_t nStart = GetTime();
             arith_uint256 hashTarget = arith_uint256().SetCompact(pblock->nBits);
+
+            int nMiningBlockHeight = pindexPrev->nHeight + 1;
+
+            // Exception for the fork block
+            if (nMiningBlockHeight == Params().GetConsensus().BTFHeight)
+            {
+                hashTarget = UintToArith256(Params().GetConsensus().powLimit);
+            }
+
             while (true)
             {
                 unsigned int nHashesDone = 0;
