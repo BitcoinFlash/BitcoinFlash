@@ -26,8 +26,12 @@ extern const std::string CURRENCY_UNIT;
  * validation code, the exact value of the MAX_MONEY constant is consensus
  * critical; in unusual circumstances like a(nother) overflow bug that allowed
  * for the creation of coins out of thin air modification could lead to a fork.
+ *
+ * Bitcoin Flash:
+ * Increasing the limit just to avoid problems with it
+ * This setting doesn't affect the coin generation, just a sanity check
  * */
-static const CAmount MAX_MONEY = 21000000 * COIN;
+static const CAmount MAX_MONEY = 100000000 * COIN;
 inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 /** Type-safe wrapper class for fee rates
