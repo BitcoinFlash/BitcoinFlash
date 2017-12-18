@@ -9,6 +9,7 @@
 #include "uint256.h"
 #include <map>
 #include <string>
+#include "amount.h"
 
 namespace Consensus {
 
@@ -65,6 +66,8 @@ struct Params {
     uint256 BIP34Hash;
     /** Block height at which Bitcoin Flash becomes alive */
     int BTFHeight;
+    /** Amount of coins in the fork block */
+    CAmount BTFInitialBudget;
     /**
      * Minimum blocks including miner confirmation of the total of nMinerConfirmationWindow blocks in a retargetting period,
      * (nPowTargetTimespan / nPowTargetSpacing) which is also used for BIP9 deployments.
