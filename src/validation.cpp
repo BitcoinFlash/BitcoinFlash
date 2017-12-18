@@ -1222,6 +1222,19 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
+CAmount GetBlockSubsidyBTC(int nHeight, const Consensus::Params& consensusParams)
+{
+    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+    // Force block reward to zero when right shift is undefined.
+    if (halvings >= 64)
+        return 0;
+
+    CAmount nSubsidy = 50 * COIN;
+    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    nSubsidy >>= halvings;
+    return nSubsidy;
+}
+
 /*
 NOTE:   unlike bitcoin we are using PREVIOUS block height here,
         might be a good idea to change this to use prev bits
@@ -2215,7 +2228,45 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     int64_t nTime3 = GetTimeMicros(); nTimeConnect += nTime3 - nTime2;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime3 - nTime2), 0.001 * (nTime3 - nTime2) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime3 - nTime2) / (nInputs-1), nTimeConnect * 0.000001);
 
-    // BITCOIN FLASH: DISABLED DASH MASTERNODE VALIDATOR THAT WAS HERE PREVIOUSLY
+    int nCurrentBlockHeight = pindex->pprev->nHeight + 1;
+    if (nCurrentBlockHeight > chainparams.GetConsensus().BTFHeight) {
+        // DASH : MODIFIED TO CHECK MASTERNODE PAYMENTS AND SUPERBLOCKS
+
+        // It's possible that we simply don't have enough data and this could fail
+        // (i.e. block itself could be a correct one and we need to store it),
+        // that's why this is in ConnectBlock. Could be the other way around however -
+        // the peer who sent us this block is missing some data and wasn't able
+        // to recognize that block is actually invalid.
+        // TODO: resync data (both ways?) and try to reprocess this block later.
+
+        CAmount blockReward =
+            nFees + GetBlockSubsidy(pindex->pprev->nBits, pindex->pprev->nHeight, chainparams.GetConsensus());
+        std::string strError = "";
+        if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError)) {
+            return state.DoS(0, error("ConnectBlock(DASH): %s", strError), REJECT_INVALID, "bad-cb-amount");
+        }
+
+        if (!IsBlockPayeeValid(block.vtx[0], pindex->nHeight, blockReward)) {
+            mapRejectedBlocks.insert(make_pair(block.GetHash(), GetTime()));
+            return state.DoS(0, error("ConnectBlock(DASH): couldn't find masternode or superblock payments"),
+                             REJECT_INVALID, "bad-cb-payee");
+        }
+        // END DASH
+    } else if (nCurrentBlockHeight == chainparams.GetConsensus().BTFHeight) {
+        // Fork block
+        CAmount blockReward = nFees + chainparams.GetConsensus().BTFInitialBudget;
+        std::string strError = "";
+        if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError)) {
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): coinbase pays too much (actual=%d vs limit=%d)", block.vtx[0].GetValueOut(), blockReward), REJECT_INVALID, "bad-cb-amount");
+        }
+    } else {
+        // Before the fork use standard BTC algorithm to check for correct block reward
+        CAmount blockReward = nFees + GetBlockSubsidyBTC(pindex->nHeight, chainparams.GetConsensus());
+        std::string strError = "";
+        if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError)) {
+            return state.DoS(0, error("ConnectBlock(): coinbase pays too much (actual=%d vs limit=%d)", block.vtx[0].GetValueOut(), blockReward), REJECT_INVALID, "bad-cb-amount");
+        }
+    }
 
     if (!control.Wait())
         return state.DoS(100, false);
