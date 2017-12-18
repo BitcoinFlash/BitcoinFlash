@@ -12,7 +12,7 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-    return HashX11(BEGIN(nVersion), END(nNonce));
+    return SerializeHash(*this);
 }
 
 std::string CBlock::ToString() const
