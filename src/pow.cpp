@@ -171,7 +171,32 @@ unsigned int GetNextWorkRequiredBTC(const CBlockIndex* pindexLast, const CBlockH
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
-    // Dash code related to Kimoto/Dark Gravity Wave deleted, we use standard Bitcoin PoW mechanism
+    assert(pindexLast != nullptr);
+
+    unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+
+    unsigned int retarget = DIFF_BTC;
+
+    int nHeightNext = pindexLast->nHeight + 1;
+
+    // Mainnet/Regtest/Testnet share a configuration
+    if (nHeightNext > params.BTFHeight) retarget = DIFF_DGW; // After the fork we use Dark Gravity Well 3
+    else if (nHeightNext == params.BTFHeight) retarget = DIFF_BTF_FORK; // The forking block - lowest difficulty
+    else retarget = DIFF_BTC; // Applying standard Bitcoin retargeting algorithm to blocks before the fork
+
+    // Retarget using Dark Gravity Wave 3
+    if (retarget == DIFF_DGW)
+    {
+        return DarkGravityWave(pindexLast, params);
+    }
+
+    // Fork block
+    if (retarget == DIFF_BTF_FORK)
+    {
+        return UintToArith256(params.powLimit).GetCompact(); // lowest difficulty
+    }
+
+    // Bitcoin style retargeting
     return GetNextWorkRequiredBTC(pindexLast, pblock, params);
 }
 
