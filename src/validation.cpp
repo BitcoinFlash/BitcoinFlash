@@ -8,6 +8,7 @@
 
 #include "alert.h"
 #include "arith_uint256.h"
+#include "base58.h"
 #include "chainparams.h"
 #include "checkpoints.h"
 #include "checkqueue.h"
@@ -2256,9 +2257,29 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         // Fork block
         CAmount blockReward = nFees + chainparams.GetConsensus().BTFInitialBudget;
         std::string strError = "";
-        if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError)) {
+        if (!IsBlockValueValid(block, pindex->nHeight, blockReward, strError))
             return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): coinbase pays too much (actual=%d vs limit=%d)", block.vtx[0].GetValueOut(), blockReward), REJECT_INVALID, "bad-cb-amount");
+
+        const CScript *script = &block.vtx[0].vout[0].scriptPubKey;
+        if (!block.vtx[0].IsCoinBase())
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): invalid coinbase transaction"));
+        if (block.vtx[0].vout.size() != 1)
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): wrong number of coinbase outputs"));
+        if (script->size() != 35)
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): invalid coinbase scriptPubKey"));
+        if ((*script)[34] != OP_CHECKSIG)
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): invalid coinbase scriptPubKey"));
+
+        CTxDestination txDestination;
+        if (!ExtractDestination(*script, txDestination)) {
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): invalid destination"));
         }
+
+        // Bitcoin Flash Foundation gets to mine the first block after the fork
+        if (CBitcoinAddress(txDestination).ToString() != "1JSp1M1EK7hKxkc53eQxCBP6d7FMM4LkSM") {
+            return state.DoS(0, error("ConnectBlock(BTF FORK BLOCK): invalid coinbase address"));
+        }
+
     } else {
         // Before the fork use standard BTC algorithm to check for correct block reward
         CAmount blockReward = nFees + GetBlockSubsidyBTC(pindex->nHeight, chainparams.GetConsensus());
