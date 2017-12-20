@@ -4446,9 +4446,37 @@ int CMerkleTx::GetDepthInMainChain(const CBlockIndex* &pindexRet, bool enableIX)
     return nResult;
 }
 
+int CMerkleTx::GetBlockHeight() const
+{
+    int nHeight;
+
+    if (hashUnset())
+        nHeight = -1;
+    else {
+        AssertLockHeld(cs_main);
+
+        // Find the block it claims to be in
+        BlockMap::iterator mi = mapBlockIndex.find(hashBlock);
+        if (mi == mapBlockIndex.end())
+            nHeight = -1;
+        else {
+            CBlockIndex* pindex = (*mi).second;
+            if (!pindex || !chainActive.Contains(pindex))
+                nHeight = -1;
+            else {
+                nHeight = pindex->nHeight;
+            }
+        }
+    }
+
+    return nHeight;
+}
+
 int CMerkleTx::GetBlocksToMaturity() const
 {
     if (!IsCoinBase())
+        return 0;
+    if (GetBlockHeight() == Params().GetConsensus().BTFHeight)
         return 0;
     return max(0, (COINBASE_MATURITY+1) - GetDepthInMainChain());
 }

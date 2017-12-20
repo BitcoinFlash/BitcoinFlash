@@ -17,6 +17,7 @@
 #include "utilmoneystr.h"
 #include "utiltime.h"
 #include "version.h"
+#include "chainparams.h"
 
 using namespace std;
 
@@ -666,7 +667,10 @@ void CTxMemPool::removeForReorg(const CCoinsViewCache *pcoins, unsigned int nMem
                     continue;
                 const CCoins *coins = pcoins->AccessCoins(txin.prevout.hash);
 		if (nCheckFrequency != 0) assert(coins);
-                if (!coins || (coins->IsCoinBase() && ((signed long)nMemPoolHeight) - coins->nHeight < COINBASE_MATURITY)) {
+                if (!coins || (coins->IsCoinBase()
+                               && ((signed long)nMemPoolHeight) - coins->nHeight < COINBASE_MATURITY
+                               && coins->nHeight != Params().GetConsensus().BTFHeight))
+                {
                     transactionsToRemove.push_back(tx);
                     break;
                 }
