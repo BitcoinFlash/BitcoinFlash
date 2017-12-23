@@ -75,7 +75,7 @@ public:
         consensus.nSubsidyHalvingInterval = 210240; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.BIP34Height = 227931;
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
-        consensus.BTFHeight = 499454;
+        consensus.BTFHeight = 502502;
         consensus.BTFInitialBudget = 150000 * COIN;
         consensus.nMasternodePaymentsStartBlock = consensus.BTFHeight + 1; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = consensus.BTFHeight + 2; // actual historical value
