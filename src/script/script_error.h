@@ -49,10 +49,13 @@ typedef enum ScriptError_t
     SCRIPT_ERR_PUBKEYTYPE,
     SCRIPT_ERR_CLEANSTACK,
 
+    /* BTF fork */
+    SCRIPT_ERR_MUST_USE_FORKID,
+
     /* softfork safeness */
     SCRIPT_ERR_DISCOURAGE_UPGRADABLE_NOPS,
 
-    SCRIPT_ERR_ERROR_COUNT
+    SCRIPT_ERR_ERROR_COUNT,
 } ScriptError;
 
 #define SCRIPT_ERR_LAST SCRIPT_ERR_ERROR_COUNT

@@ -24,8 +24,18 @@ enum
     SIGHASH_ALL = 1,
     SIGHASH_NONE = 2,
     SIGHASH_SINGLE = 3,
+    SIGHASH_FORKID = 0x40,
     SIGHASH_ANYONECANPAY = 0x80,
 };
+
+/** Fork IDs **/
+enum
+{
+    FORKID_BCC = 0,
+    FORKID_BTF = 88,
+};
+
+static const int FORKID_IN_USE = FORKID_BTF;
 
 /** Script verification flags */
 enum
@@ -86,11 +96,19 @@ enum
     //
     // See BIP112 for details
     SCRIPT_VERIFY_CHECKSEQUENCEVERIFY = (1U << 10),
+
+    // FORKID should be enabled by default
+    //
+    // SCRIPT_ENABLE_SIGHASH_FORKID = (1U << 16),
+
+    // Allow NON_FORKID in legacy tests and blocks under BTF hard fork height
+    //
+    SCRIPT_ALLOW_NON_FORKID = (1U << 17),
 };
 
 bool CheckSignatureEncoding(const std::vector<unsigned char> &vchSig, unsigned int flags, ScriptError* serror);
 
-uint256 SignatureHash(const CScript &scriptCode, const CTransaction& txTo, unsigned int nIn, int nHashType);
+uint256 SignatureHash(const CScript &scriptCode, const CTransaction& txTo, unsigned int nIn, int nHashType, const int forkid = FORKID_IN_USE);
 
 class BaseSignatureChecker
 {

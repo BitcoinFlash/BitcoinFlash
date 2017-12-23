@@ -59,10 +59,16 @@ const map<unsigned char, string> mapSigHashTypes =
     boost::assign::map_list_of
     (static_cast<unsigned char>(SIGHASH_ALL), string("ALL"))
     (static_cast<unsigned char>(SIGHASH_ALL|SIGHASH_ANYONECANPAY), string("ALL|ANYONECANPAY"))
+    (static_cast<unsigned char>(SIGHASH_ALL|SIGHASH_FORKID), string("ALL|FORKID"))
+    (static_cast<unsigned char>(SIGHASH_ALL|SIGHASH_FORKID|SIGHASH_ANYONECANPAY), string("ALL|FORKID|ANYONECANPAY"))
     (static_cast<unsigned char>(SIGHASH_NONE), string("NONE"))
     (static_cast<unsigned char>(SIGHASH_NONE|SIGHASH_ANYONECANPAY), string("NONE|ANYONECANPAY"))
+    (static_cast<unsigned char>(SIGHASH_NONE|SIGHASH_FORKID), string("NONE|FORKID"))
+    (static_cast<unsigned char>(SIGHASH_NONE|SIGHASH_FORKID|SIGHASH_ANYONECANPAY), string("NONE|FORKID|ANYONECANPAY"))
     (static_cast<unsigned char>(SIGHASH_SINGLE), string("SINGLE"))
     (static_cast<unsigned char>(SIGHASH_SINGLE|SIGHASH_ANYONECANPAY), string("SINGLE|ANYONECANPAY"))
+    (static_cast<unsigned char>(SIGHASH_SINGLE|SIGHASH_FORKID), string("SINGLE|FORKID"))
+    (static_cast<unsigned char>(SIGHASH_SINGLE|SIGHASH_FORKID|SIGHASH_ANYONECANPAY), string("SINGLE|FORKID|ANYONECANPAY"))
     ;
 
 /**
@@ -97,7 +103,7 @@ string ScriptToAsmStr(const CScript& script, const bool fAttemptSighashDecode)
                     // this won't decode correctly formatted public keys in Pubkey or Multisig scripts due to
                     // the restrictions on the pubkey formats (see IsCompressedOrUncompressedPubKey) being incongruous with the
                     // checks in CheckSignatureEncoding.
-                    if (CheckSignatureEncoding(vch, SCRIPT_VERIFY_STRICTENC, NULL)) {
+                    if (CheckSignatureEncoding(vch, SCRIPT_VERIFY_STRICTENC | SCRIPT_ALLOW_NON_FORKID, NULL)) {
                         const unsigned char chSigHashType = vch.back();
                         if (mapSigHashTypes.count(chSigHashType)) {
                             strSigHashDecode = "[" + mapSigHashTypes.find(chSigHashType)->second + "]";

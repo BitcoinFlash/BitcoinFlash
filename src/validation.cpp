@@ -1493,6 +1493,22 @@ int GetSpendHeight(const CCoinsViewCache& inputs)
     return pindexPrev->nHeight + 1;
 }
 
+bool static IsBTFHardForkEnabled(const CChainParams& chainParams, int nHeight) {
+    return nHeight >= chainParams.GetConsensus().BTFHeight;
+}
+
+bool IsBTFHardForkEnabled(const CChainParams& chainParams, const CBlockIndex *pindexPrev) {
+    if (pindexPrev == nullptr)
+        return false;
+
+    return IsBTFHardForkEnabled(chainParams, pindexPrev->nHeight);
+}
+
+bool IsBTFHardForkEnabledForCurrentBlock(const CChainParams& chainParams) {
+    AssertLockHeld(cs_main);
+    return IsBTFHardForkEnabled(chainParams, chainActive.Tip());
+}
+
 namespace Consensus {
 bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoinsViewCache& inputs, int nSpendHeight)
 {
@@ -2060,23 +2076,29 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     unsigned int flags = fStrictPayToScriptHash ? SCRIPT_VERIFY_P2SH : SCRIPT_VERIFY_NONE;
 
-    // Start enforcing the DERSIG (BIP66) rules, for block.nVersion=3 blocks,
-    // when 75% of the network has upgraded:
-    if (block.nVersion >= 3 && IsSuperMajority(3, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
+//    // Start enforcing the DERSIG (BIP66) rules, for block.nVersion=3 blocks,
+//    // when 75% of the network has upgraded:
+//    if (block.nVersion >= 3 && IsSuperMajority(3, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
         flags |= SCRIPT_VERIFY_DERSIG;
-    }
+//    }
 
-    // Start enforcing CHECKLOCKTIMEVERIFY, (BIP65) for block.nVersion=4
-    // blocks, when 75% of the network has upgraded:
-    if (block.nVersion >= 4 && IsSuperMajority(4, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
+//    // Start enforcing CHECKLOCKTIMEVERIFY, (BIP65) for block.nVersion=4
+//    // blocks, when 75% of the network has upgraded:
+//    if (block.nVersion >= 4 && IsSuperMajority(4, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
         flags |= SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY;
-    }
+//    }
 
     // Start enforcing BIP68 (sequence locks) and BIP112 (CHECKSEQUENCEVERIFY) using versionbits logic.
     int nLockTimeFlags = 0;
-    if (VersionBitsState(pindex->pprev, chainparams.GetConsensus(), Consensus::DEPLOYMENT_CSV, versionbitscache) == THRESHOLD_ACTIVE) {
+//    if (VersionBitsState(pindex->pprev, chainparams.GetConsensus(), Consensus::DEPLOYMENT_CSV, versionbitscache) == THRESHOLD_ACTIVE) {
         flags |= SCRIPT_VERIFY_CHECKSEQUENCEVERIFY;
         nLockTimeFlags |= LOCKTIME_VERIFY_SEQUENCE;
+//    }
+
+    if (IsBTFHardForkEnabled(Params(), pindex->pprev)) {
+        flags |= SCRIPT_VERIFY_STRICTENC;
+    } else {
+        flags |= SCRIPT_ALLOW_NON_FORKID;
     }
 
     int64_t nTime2 = GetTimeMicros(); nTimeForks += nTime2 - nTime1;

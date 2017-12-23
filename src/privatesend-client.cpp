@@ -554,7 +554,7 @@ bool CPrivateSendClient::SignFinalTransaction(const CTransaction& finalTransacti
                 const CKeyStore& keystore = *pwalletMain;
 
                 LogPrint("privatesend", "CPrivateSendClient::SignFinalTransaction -- Signing my input %i\n", nMyInputIndex);
-                if(!SignSignature(keystore, prevPubKey, finalMutableTransaction, nMyInputIndex, int(SIGHASH_ALL|SIGHASH_ANYONECANPAY))) { // changes scriptSig
+                if(!SignSignature(keystore, prevPubKey, finalMutableTransaction, nMyInputIndex, int(SIGHASH_ALL|SIGHASH_FORKID|SIGHASH_ANYONECANPAY))) { // changes scriptSig
                     LogPrint("privatesend", "CPrivateSendClient::SignFinalTransaction -- Unable to sign my own transaction!\n");
                     // not sure what to do here, it will timeout...?
                 }
