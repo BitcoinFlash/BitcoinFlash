@@ -164,8 +164,8 @@
         <translation>Bekräfta plånbokskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA DASH&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTF&lt;/b&gt;!</source>
+        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA BTF&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash
 </translation>
     </message>
     <message>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;Om Dash Core</translation>
+        <source>&amp;About Bitcoin Flash</source>
+        <translation>&amp;Om Bitcoin Flash</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -412,8 +412,8 @@
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
-        <translation>Visa Dash Core-hjälpmeddelandet för att få en lista med möjliga Dash-kommandoradalternativ</translation>
+        <source>Show the Bitcoin Flash help message to get a list with possible Dash command-line options</source>
+        <translation>Visa Bitcoin Flash-hjälpmeddelandet för att få en lista med möjliga Dash-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -758,28 +758,28 @@ Adress: %4
         <translation>Vänligen välj en integritetsnivå.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 DASH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 BTF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 DASH.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 BTF.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Använd 16 enskilda masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 DASH för att anonymisera 1000 DASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 BTF to anonymize 1000 BTF</source>
+        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 BTF för att anonymisera 1000 BTF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 DASH för att anonymisera 1000 DASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 BTF to anonymize 1000 BTF</source>
+        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 BTF för att anonymisera 1000 BTF</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0,1 DASH per 1000 DASH du anonymiserar.</translation>
+        <source>0.1 BTF per 1000 BTF you anonymize.</source>
+        <translation>0,1 BTF per 1000 BTF du anonymiserar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
-        <translation>Välkommen till Dash Core.</translation>
+        <source>Welcome to Bitcoin Flash.</source>
+        <translation>Välkommen till Bitcoin Flash.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Dash Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Flash will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Bitcoin Flash ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dash Core kommer att laddas ned och lagra en kopia av Dash:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Bitcoin Flash will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Flash kommer att laddas ned och lagra en kopia av Dash:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1182,7 +1182,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Flash network after a connection is established, but this process has not completed yet.</source>
         <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Dash-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
@@ -1238,8 +1238,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Mängd och omgångar:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH/0 omgångar</translation>
+        <source>0 BTF / 0 Rounds</source>
+        <translation>0 BTF/0 omgångar</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1542,7 +1542,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Dash-nätverket.</translation>
     </message>
     <message>
@@ -1958,7 +1958,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Flash network.</source>
         <translation>Ett meddelande som bifogades till Dash: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Dash-nätverket.</translation>
     </message>
     <message>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
-        <translation>Dash Core stängs ned...</translation>
+        <source>Bitcoin Flash is shutting down...</source>
+        <translation>Bitcoin Flash stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Dash Core-utvecklarna</translation>
+        <source>The Dash Core Developers</source>
+        <translation>Bitcoin Flash-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Dash Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Flash is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Bitcoin Flash körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,16 +2718,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Dash Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Flash is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Bitcoin Flash körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Kunde inte hitta tillräckliga Darksend-denominationsmedel för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 DASH.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 BTF.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Dash Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Bitcoin Flash is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Bitcoin Flash stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

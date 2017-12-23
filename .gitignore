@@ -7,12 +7,15 @@ reset-files.bash
 
 *.exe
 src/dash
-src/dashd
-src/dash-cli
-src/dash-tx
+src/bitcoinflash
+src/bitcoinflashd
+src/bitcoinflash-cli
+src/bitcoinflash-tx
 src/test/test_dash
-src/qt/test/test_dash-qt
-src/bench/bench_dash
+src/test/test_bitcoinflash
+src/qt/test/test_bitcoinflash-qt
+src/bench/bench_bitcoinflash
+src/bench/bench_bitcoinflash
 
 # autoreconf
 Makefile.in
@@ -37,6 +40,8 @@ configure
 libtool
 src/config/dash-config.h
 src/config/dash-config.h.in
+src/config/bitcoinflash-config.h
+src/config/bitcoinflash-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -63,6 +68,7 @@ libconftest.dylib*
 *.o-*
 *.patch
 .dash
+.bitcoinflash
 *.a
 *.pb.cc
 *.pb.h
@@ -81,12 +87,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-dash-qt
-Dash-Qt.app
+bitcoinflash-qt
+Bitcoinflash-qt.app
 
 # Unit-tests
 Makefile.test
-dash-qt_test
+bitcoinflash-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -101,6 +107,7 @@ build
 *.gcda
 /*.info
 test_dash.coverage/
+test_bitcoinflash.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -124,13 +131,14 @@ share/BitcoindComparisonTool.jar
 /doc/doxygen/
 
 libdashconsensus.pc
-src/qt/dash-qt.bash
+libbitcoinflashconsensus.pc
+src/qt/bitcoinflash-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-dash-cli
-dashd
-dash-qt
+bitcoinflash-cli
+bitcoinflashd
+bitcoinflash-qt
 make
 
 /.idea

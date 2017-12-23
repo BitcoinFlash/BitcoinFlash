@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje DASH-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTF&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje BTF-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -238,8 +238,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -298,12 +298,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;O Dash Core</translation>
+        <source>&amp;About Bitcoin Flash</source>
+        <translation>&amp;O Bitcoin Flash</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Zobraziť informácie o Dash Core</translation>
+        <source>Show information about Bitcoin Flash</source>
+        <translation>Zobraziť informácie o Bitcoin Flash</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -318,8 +318,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dash Core</source>
-        <translation>Upraviť možnosti konfigurácie Dash Core</translation>
+        <source>Modify configuration options for Bitcoin Flash</source>
+        <translation>Upraviť možnosti konfigurácie Bitcoin Flash</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -502,11 +502,11 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>Dash Core client</source>
-        <translation>Dash Core klient</translation>
+        <source>Bitcoin Flash client</source>
+        <translation>Bitcoin Flash klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Bitcoin Flash network</source>
         <translation><numerusform>%n aktívne spojenie so sieťou Dash</numerusform><numerusform>%n aktívne spojenia so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform></translation>
     </message>
     <message>
@@ -798,8 +798,8 @@
         <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Môže sa pohybovať +/- %1 satoshi(y) pre vstup.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -841,28 +841,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 DASH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 BTF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 DASH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 BTF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 DASH pre anonimizáciu 1000 DASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 BTF to anonymize 1000 BTF</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 BTF pre anonimizáciu 1000 BTF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 DASH pre anonimizáciu 1000 DASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 BTF to anonymize 1000 BTF</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 BTF pre anonimizáciu 1000 BTF</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH za 1000 DASH ktoré spravíte anonymnými.</translation>
+        <source>0.1 BTF per 1000 BTF you anonymize.</source>
+        <translation>0.1 BTF za 1000 BTF ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -966,8 +966,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>version</source>
@@ -978,8 +978,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dash Core</source>
-        <translation>O Dash Core</translation>
+        <source>About Bitcoin Flash</source>
+        <translation>O Bitcoin Flash</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1033,16 +1033,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
-        <translation>Vitajte v Dash Core.</translation>
+        <source>Welcome to Bitcoin Flash.</source>
+        <translation>Vitajte v Bitcoin Flash.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Dash Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Flash will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Bitcoin Flash ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dash Core stiahne a uloží kópiu reťazca blokov Dash. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Bitcoin Flash will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Flash stiahne a uloží kópiu reťazca blokov Dash. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1053,8 +1053,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1233,11 +1233,11 @@
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Dash Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Dash Core po prihlásení do systému.</translation>
+        <source>Automatically start Bitcoin Flash after logging in to the system.</source>
+        <translation>Automaticky spustiť Bitcoin Flash po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Dash Core on system login</source>
+        <source>&amp;Start Bitcoin Flash on system login</source>
         <translation>&amp;Spusť Dash po prihlásení do systému</translation>
     </message>
     <message>
@@ -1265,7 +1265,7 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Bitcoin Flash network through a SOCKS5 proxy.</source>
         <translation>Pripojiť sa do siete Dash cez proxy SOCKS5.</translation>
     </message>
     <message>
@@ -1458,7 +1458,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Flash network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Dash akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
@@ -1558,8 +1558,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Kôl</translation>
+        <source>0 BTF / 0 Rounds</source>
+        <translation>0 BTF / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1802,8 +1802,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -2247,7 +2247,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
@@ -2259,7 +2259,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
@@ -2508,12 +2508,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>InstantSend</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ak je vlastný poplatok nastavený na 1000 satoshiov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 satoshiov na poplatkoch, &lt;br /&gt;zatiaľ čo "pri najmenšom" zaplatí 1000 satoshiov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ak je vlastný poplatok nastavený na 1000 satoshiov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 satoshiov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 satoshiov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2775,7 +2775,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Flash network.</source>
         <translation>Správa ktorá bola pripojená ku dash: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Dash.</translation>
     </message>
     <message>
@@ -2802,8 +2802,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
-        <translation>Dash core sa vypína...</translation>
+        <source>Bitcoin Flash is shutting down...</source>
+        <translation>Bitcoin Flash sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2952,8 +2952,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>[testovacia sieť]</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2964,8 +2964,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Vývojári Dash Core</translation>
+        <source>The Dash Core Developers</source>
+        <translation>Vývojári Bitcoin Flash</translation>
     </message>
 </context>
 <context>
@@ -3484,8 +3484,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Poslať Mince</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DASH.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 BTF.</translation>
     </message>
     </context>
 <context>
@@ -3534,8 +3534,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Dash Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Flash is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Bitcoin Flash už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3574,8 +3574,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Dash Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Flash is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Bitcoin Flash už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3790,8 +3790,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 DASH.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 BTF.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3846,8 +3846,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Dash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Flash</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Bitcoin Flash</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3890,8 +3890,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Dash Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Bitcoin Flash is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Bitcoin Flash sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4118,8 +4118,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Dash Core</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoin Flash to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Bitcoin Flash</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4162,8 +4162,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
-        <translation>Udržiavať N DASH anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N BTF anonymized (default: %u)</source>
+        <translation>Udržiavať N BTF anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4202,8 +4202,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DASH.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 BTF.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4214,8 +4214,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Dash Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Flash will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Bitcoin Flash nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 DASH.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 BTF.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

@@ -1,0 +1,22 @@
+[Unit]
+Description=Dash's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcoinflash
+Group=bitcoinflash
+
+Type=forking
+PIDFile=/var/lib/bitcoinflashd/bitcoinflashd.pid
+ExecStart=/usr/bin/bitcoinflashd -daemon -pid=/var/lib/bitcoinflashd/bitcoinflashd.pid \
+-conf=/etc/bitcoinflash/bitcoinflash.conf -datadir=/var/lib/bitcoinflashd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

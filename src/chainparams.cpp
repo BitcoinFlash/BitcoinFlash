@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Dash Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -150,7 +150,7 @@ public:
         vSeeds.push_back(CDNSSeedData("seed.bitcoin.jonasschnelli.ch", "seed.bitcoin.jonasschnelli.ch")); // Jonas Schnelli, only supports x1, x5, x9, and xd
         vSeeds.push_back(CDNSSeedData("seed.btc.petertodd.org", "seed.btc.petertodd.org")); // Peter Todd, only supports x1, x5, x9, and xd
         // vSeeds.push_back(CDNSSeedData("dash.org", "dnsseed.dash.org"));
-        // vSeeds.push_back(CDNSSeedData("dashdot.io", "dnsseed.dashdot.io"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinflashdot.io", "dnsseed.bitcoinflashdot.io"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         // vSeeds.push_back(CDNSSeedData("dashpay.io", "dnsseed.dashpay.io"));
 
@@ -285,7 +285,7 @@ public:
         vSeeds.push_back(CDNSSeedData("seed.tbtc.petertodd.org", "seed.tbtc.petertodd.org"));
         vSeeds.push_back(CDNSSeedData("testnet-seed.bluematt.me", "seed.tbtc.petertodd.org"));
 
-        // vSeeds.push_back(CDNSSeedData("dashdot.io",  "testnet-seed.dashdot.io"));
+        // vSeeds.push_back(CDNSSeedData("bitcoinflashdot.io",  "testnet-seed.bitcoinflashdot.io"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
@@ -301,7 +301,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;

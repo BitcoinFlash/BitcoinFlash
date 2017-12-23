@@ -21,7 +21,7 @@ Darkcoin Core:
 - Defined BIP32 (HD) address versions to start with `drkp`/`drkv` (`DRKP`/`DRKV`
   for testnet)
 - Adapted BIP44 coin type `5` for Darkcoin (0x80000005) as defined in SLIP-0044
-- Added new units: `duffs` (1 / 100.000.000 DRK)
+- Added new units: `satoshis` (1 / 100.000.000 DRK)
 - Added units for testnet: tDRK, mtDRK, utDRK, tduffs
 - Added new DNS seed from masternode.io
 - Fixed wallet locking after sending coins
@@ -100,13 +100,13 @@ Command-line options:
 - New option: -nospendzeroconfchange to never spend unconfirmed change outputs
 - New option: -zapwallettxes to rebuild the wallet's transaction information
 - Rename option '-tor' to '-onion' to better reflect what it does
-- Add '-disablewallet' mode to let dashd run entirely without wallet (when
+- Add '-disablewallet' mode to let bitcoinflashd run entirely without wallet (when
   built with wallet)
 - Update default '-rpcsslciphers' to include TLSv1.2
 - make '-logtimestamps' default on and rework help-message
 - RPC client option: '-rpcwait', to wait for server start
 - Remove '-logtodebugger'
-- Allow `-noserver` with dashd
+- Allow `-noserver` with bitcoinflashd
 - Make -proxy set all network types, avoiding a connect leak.
 
 

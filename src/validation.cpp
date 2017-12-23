@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Dash Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,7 +53,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Dash Core cannot be compiled without assertions."
+# error "Bitcoin Flash cannot be compiled without assertions."
 #endif
 
 /**
@@ -91,7 +91,7 @@ std::atomic<bool> fDIP0001ActiveAtTip{false};
 
 uint256 hashAssumeValid;
 
-/** Fees smaller than this (in duffs) are considered zero fee (for relaying, mining and transaction creation) */
+/** Fees smaller than this (in satoshis) are considered zero fee (for relaying, mining and transaction creation) */
 CFeeRate minRelayTxFee = CFeeRate(DEFAULT_LEGACY_MIN_RELAY_TX_FEE);
 
 CTxMemPool mempool(::minRelayTxFee);

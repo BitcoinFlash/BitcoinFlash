@@ -2,11 +2,11 @@
 # -*- mode: makefile; coding: utf-8 -*-
 
 #DEB_MAKE_CHECK_TARGET = test_dash
-#build/dashd::
+#build/bitcoinflashd::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_dash)
 
-DEB_INSTALL_EXAMPLES_dashd += debian/examples/*
-DEB_INSTALL_MANPAGES_dashd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_bitcoinflashd += debian/examples/*
+DEB_INSTALL_MANPAGES_bitcoinflashd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

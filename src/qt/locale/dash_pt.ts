@@ -176,8 +176,8 @@
         <translation>Confirme cifra da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODAS AS SUAS MOEDAS DASH&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTF&lt;/b&gt;!</source>
+        <translation>Atenção: Se cifrar a carteira e perder a palavra-passe, irá &lt;b&gt;PERDER TODAS AS SUAS MOEDAS BTF&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;Acerca do Dash Core</translation>
+        <source>&amp;About Bitcoin Flash</source>
+        <translation>&amp;Acerca do Bitcoin Flash</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Mostra informação acerca do Dash Core</translation>
+        <source>Show information about Bitcoin Flash</source>
+        <translation>Mostra informação acerca do Bitcoin Flash</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Dash Core client</source>
-        <translation>Cliente Dash Core</translation>
+        <source>Bitcoin Flash client</source>
+        <translation>Cliente Bitcoin Flash</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Dash Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Bitcoin Flash help message to get a list with possible Dash command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Bitcoin Flash para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,7 +483,7 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Bitcoin Flash network</source>
         <translation><numerusform>%n ligação activa à rede Dash</numerusform><numerusform>%n ligações activas à rede Dash</numerusform></translation>
     </message>
     <message>
@@ -757,8 +757,8 @@ Endereço: %4
         <translation>média-alta</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Pode variar +/- %1 duff(s) por input</translation>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Pode variar +/- %1 satoshi(s) por input</translation>
     </message>
     <message>
         <source>n/a</source>
@@ -860,11 +860,11 @@ Endereço: %4
         <translation>Por favor seleccione um nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 BTF</source>
         <translation>Usar 2 masternodes distintos para misturar os fundos até 1000DRK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 BTF</source>
         <translation>Usar 8 masternodes distintos para misturar os fundos até 1000DRK</translation>
     </message>
     <message>
@@ -872,16 +872,16 @@ Endereço: %4
         <translation>Usar 16 masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 DASH para anonimizar 1000 DASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 BTF to anonymize 1000 BTF</source>
+        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 BTF para anonimizar 1000 BTF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 DASH para anonimizar 1000 DASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 BTF to anonymize 1000 BTF</source>
+        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 BTF para anonimizar 1000 BTF</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH por cada 1000 DASH a anonimizar.</translation>
+        <source>0.1 BTF per 1000 BTF you anonymize.</source>
+        <translation>0.1 BTF por cada 1000 BTF a anonimizar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dash Core</source>
-        <translation>Acerca do Dash Core</translation>
+        <source>About Bitcoin Flash</source>
+        <translation>Acerca do Bitcoin Flash</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
-        <translation>Bem-vindo ao Dash Core.</translation>
+        <source>Welcome to Bitcoin Flash.</source>
+        <translation>Bem-vindo ao Bitcoin Flash.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Dash Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Flash will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Bitcoin Flash irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Dash Core irá descarregar e guardar uma copia da cadeia de blocos Dash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Bitcoin Flash will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Bitcoin Flash irá descarregar e guardar uma copia da cadeia de blocos Dash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1170,7 +1170,7 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Bitcoin Flash network through a SOCKS5 proxy.</source>
         <translation>Efectuar a ligação à rede Dash através de um proxy SOCKS5.</translation>
     </message>
     <message>
@@ -1343,7 +1343,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Flash network after a connection is established, but this process has not completed yet.</source>
         <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Dash assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
@@ -1427,8 +1427,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Quantia e Voltas:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Voltas</translation>
+        <source>0 BTF / 0 Rounds</source>
+        <translation>0 BTF / 0 Voltas</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -2031,7 +2031,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Dash.</translation>
     </message>
     <message>
@@ -2043,7 +2043,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Dash.</translation>
     </message>
     <message>
@@ -2543,7 +2543,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Flash network.</source>
         <translation>Mensagem que foi anexada ao dash: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Dash.</translation>
     </message>
     <message>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
-        <translation>O Dash Core está a desligar...</translation>
+        <source>Bitcoin Flash is shutting down...</source>
+        <translation>O Bitcoin Flash está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Os programadores Dash Core</translation>
+        <source>The Bitcoin Flash developers</source>
+        <translation>Os programadores Bitcoin Flash</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3260,8 +3260,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitadas a %1 DASH.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
+        <translation>O InstantX não suporta valores tão elevados neste momento. As transacções estão limitadas a %1 BTF.</translation>
     </message>
 </context>
 <context>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Dash Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Flash is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Bitcoin Flash já se encontra em execução.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,15 +3366,15 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Dash Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoin Flash is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Bitcoin Flash já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Não foi possível localizar fundos Darksend denominados suficientes para esta transacção.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BTF.</source>
         <translation>Não foi possível localizar fundos Darksend não denominados suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>
@@ -3590,8 +3590,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Activar o uso de darksend automatizado para os fundos guardados nesta carteira (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em DASH/Kb) inferiores a esta serão consideradas zero para retransmissão (default: %s)</translation>
+        <source>Fees (in BTF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em BTF/Kb) inferiores a esta serão consideradas zero para retransmissão (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3638,7 +3638,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software criptográfico escrito por Eric Young e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 BTF.</source>
         <translation>Não foi possível localizar fundos suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Dash Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Flash will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Bitcoin Flash não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(9999 could be used only on mainnet)</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Dash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Flash</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Bitcoin Flash</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3744,8 +3744,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Erro: Argument não suportado -tor encontrado, utilize -onion</translation>
     </message>
     <message>
-        <source>Fee (in DASH/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxas (em DASH/Kb) a adicionar às transacções que envia (omissão: %s)</translation>
+        <source>Fee (in BTF/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxas (em BTF/Kb) a adicionar às transacções que envia (omissão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Dash Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Bitcoin Flash is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Bitcoin Flash está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie Dash Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoin Flash to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie Bitcoin Flash para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4104,8 +4104,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chave KeePassHttp para usar na comunicação cifrada AES com o KeePass</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
-        <translation>Manter N DASH anonimizados (default: %u)</translation>
+        <source>Keep N BTF anonymized (default: %u)</source>
+        <translation>Manter N BTF anonimizados (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

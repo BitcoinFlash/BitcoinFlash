@@ -247,7 +247,7 @@ def FromHex(obj, hex_string):
 def ToHex(obj):
     return hexlify(obj.serialize()).decode('ascii')
 
-# Objects that map to dashd objects, which can be serialized/deserialized
+# Objects that map to bitcoinflashd objects, which can be serialized/deserialized
 
 class CAddress(object):
     def __init__(self):
@@ -972,7 +972,7 @@ class msg_headers(object):
         self.headers = []
 
     def deserialize(self, f):
-        # comment in dashd indicates these should be deserialized as blocks
+        # comment in bitcoinflashd indicates these should be deserialized as blocks
         blocks = deser_vector(f, CBlock)
         for x in blocks:
             self.headers.append(CBlockHeader(x))

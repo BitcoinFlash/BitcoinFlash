@@ -176,8 +176,8 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ DASH МОНЕТИ!&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTF&lt;/b&gt;!</source>
+        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ BTF МОНЕТИ!&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>Dash Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
-        <translation>Dash Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Dash от вируси заразили  компютъра Ви.</translation>
+        <source>Bitcoin Flash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Flash ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Dash от вируси заразили  компютъра Ви.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. Dash Core не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. Bitcoin Flash can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Bitcoin Flash не може да продължи безопасно и ще се изключи.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>Dash Ядро</translation>
     </message>
     <message>
@@ -306,12 +306,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
+        <source>&amp;About Bitcoin Flash</source>
         <translation>&amp;За Dash ядрото</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Покаци информация за Dash Core</translation>
+        <source>Show information about Bitcoin Flash</source>
+        <translation>Покаци информация за Bitcoin Flash</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dash Core</source>
-        <translation>Промяна опциите за конфигуриране на Dash Core</translation>
+        <source>Modify configuration options for Bitcoin Flash</source>
+        <translation>Промяна опциите за конфигуриране на Bitcoin Flash</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Show the Dash Core help message to get a list with possible Dash Core command-line options</source>
-        <translation>Покажи съобщението за помощ на Dash Core за да получите списък с възможните опции за командния ред на Dash Core</translation>
+        <source>Show the Bitcoin Flash help message to get a list with possible Bitcoin Flash command-line options</source>
+        <translation>Покажи съобщението за помощ на Bitcoin Flash за да получите списък с възможните опции за командния ред на Bitcoin Flash</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,11 +514,11 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message>
-        <source>Dash Core client</source>
-        <translation>Dash Core клиент</translation>
+        <source>Bitcoin Flash client</source>
+        <translation>Bitcoin Flash клиент</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Bitcoin Flash network</source>
         <translation><numerusform>%n активни връзки към Dash мрежата</numerusform><numerusform>%n активни връзки към Dash мрежата</numerusform></translation>
     </message>
     <message>
@@ -814,8 +814,8 @@
         <translation>Този етикет става червен, ако получателят получи сума, по-малка от прага за незначителен остатък.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Може да варира +/- %1 duff(s) за вход.</translation>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Може да варира +/- %1 satoshi(s) за вход.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -857,28 +857,28 @@
         <translation>Моля изберете ниво на сигурност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 DASH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 BTF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 DASH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 BTF</source>
+        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 BTF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 DASH</translation>
+        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 BTF</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Това е най-бързият вариант, анонимизиране на 1000 DASH ще ви струва около 0.025 DASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 BTF to anonymize 1000 BTF</source>
+        <translation>Това е най-бързият вариант, анонимизиране на 1000 BTF ще ви струва около 0.025 BTF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Това е средно бърз вариант, анонимизиране на 1000 DASH ще ви струва около 0.05 DASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 BTF to anonymize 1000 BTF</source>
+        <translation>Това е средно бърз вариант, анонимизиране на 1000 BTF ще ви струва около 0.05 BTF</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0.1 DASH за всеки 1000 DASH които анонимизирате.</translation>
+        <source>0.1 BTF per 1000 BTF you anonymize.</source>
+        <translation>0.1 BTF за всеки 1000 BTF които анонимизирате.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -982,7 +982,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>Dash ядро</translation>
     </message>
     <message>
@@ -994,7 +994,7 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Dash Core</source>
+        <source>About Bitcoin Flash</source>
         <translation>За Dash ядрото</translation>
     </message>
     <message>
@@ -1042,8 +1042,8 @@
         <translation>PrivateSend информация</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend основни понятия&lt;/h3&gt; PrivateSend ви дава истинска финансова независимост чрез скриване произхода на средствата ви. Всички Dash монети в портфейла ви са съставени от различни "входове" които можете да приемете като отделни дискретни монети&lt;br&gt; PrivateSend използва иновативен процес като смесва вашите входове с входовете на други двама души без монетите да напускат изобщо портфейла ви. Имате пълен контрол върху парите си през цялото време. &lt;hr&gt; &lt;b&gt; PrivateSend процесът работи по следния начин:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend започва чрез разделяне на транзакцията ви до стандартни деноминации. Тези деноминации са 0.01 DASH, 0.1 DASH, 1 DASH и 10 DASH --подобно на стандартните пари, които ползваме ежедневно.&lt;/li&gt; &lt;li&gt;Вашия портфейл изпраща запитване към специално конфигурираните софтуерни възли в мрежата, наречени "masternodes." Тези masternodes са информирани, че се интересувате от смесване на определена деноминация. Никаква идентификационна информация не се изпраща към   masternodes, така, че те никога не знаят "кой" сте.&lt;/li&gt; &lt;li&gt;Когато други двама души изпратят подобни съобщения, обозначаващи, че искат да смесят същата деноминация, смесващата сесия започва. Masternode смесват входовете и инструктират портфейлите на тримата потребители да платят новотрансформираните входове обратно към притежателите им. Вашият портфейл плаща деноминацията директно на себе си, но с различен адрес (наричан сменен адрес).  &lt;/li&gt; &lt;li&gt;С цел напълно скриване на доходите ви, вашият портфейл трябва да повтори този процес няколко пъти във всяка деноминация.  Всеки път завършеният процес се нарича "цикъл." Всеки цикъл на PrivateSend прави откриването на първоначалния източник на вашите средства напълно непроследим.&lt;/li&gt; &lt;li&gt;Този смесващ процес се случва като процес на заден фон без никаква намеса от ваша страна. Когато искате да направите транзакция, вашите средства са винаги анонимни. Не е необходимо допълнително изчакване. &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Вашият портфейл съдържа само 1000 от тези "сменяеми адреси". Всеки път когато се случва смесването до 9 от вашите адреси се ползват.  Това означава, че тези 1000 адреси се миксират в около 100 смесващи събития. Когато 900 се използват, вашия портфейл трябва да създаде повече адреси. Това може да стане само ако имате автоматично архивиране.&lt;br&gt; Следователно, потребителите, на които е изключено автоматичното архивиране, нямат и  PrivateSend включено. &lt;hr&gt;За повече информация вижте&lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 BTF, 0.1 BTF, 1 BTF and 10 BTF -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend основни понятия&lt;/h3&gt; PrivateSend ви дава истинска финансова независимост чрез скриване произхода на средствата ви. Всички Dash монети в портфейла ви са съставени от различни "входове" които можете да приемете като отделни дискретни монети&lt;br&gt; PrivateSend използва иновативен процес като смесва вашите входове с входовете на други двама души без монетите да напускат изобщо портфейла ви. Имате пълен контрол върху парите си през цялото време. &lt;hr&gt; &lt;b&gt; PrivateSend процесът работи по следния начин:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend започва чрез разделяне на транзакцията ви до стандартни деноминации. Тези деноминации са 0.01 BTF, 0.1 BTF, 1 BTF и 10 BTF --подобно на стандартните пари, които ползваме ежедневно.&lt;/li&gt; &lt;li&gt;Вашия портфейл изпраща запитване към специално конфигурираните софтуерни възли в мрежата, наречени "masternodes." Тези masternodes са информирани, че се интересувате от смесване на определена деноминация. Никаква идентификационна информация не се изпраща към   masternodes, така, че те никога не знаят "кой" сте.&lt;/li&gt; &lt;li&gt;Когато други двама души изпратят подобни съобщения, обозначаващи, че искат да смесят същата деноминация, смесващата сесия започва. Masternode смесват входовете и инструктират портфейлите на тримата потребители да платят новотрансформираните входове обратно към притежателите им. Вашият портфейл плаща деноминацията директно на себе си, но с различен адрес (наричан сменен адрес).  &lt;/li&gt; &lt;li&gt;С цел напълно скриване на доходите ви, вашият портфейл трябва да повтори този процес няколко пъти във всяка деноминация.  Всеки път завършеният процес се нарича "цикъл." Всеки цикъл на PrivateSend прави откриването на първоначалния източник на вашите средства напълно непроследим.&lt;/li&gt; &lt;li&gt;Този смесващ процес се случва като процес на заден фон без никаква намеса от ваша страна. Когато искате да направите транзакция, вашите средства са винаги анонимни. Не е необходимо допълнително изчакване. &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Вашият портфейл съдържа само 1000 от тези "сменяеми адреси". Всеки път когато се случва смесването до 9 от вашите адреси се ползват.  Това означава, че тези 1000 адреси се миксират в около 100 смесващи събития. Когато 900 се използват, вашия портфейл трябва да създаде повече адреси. Това може да стане само ако имате автоматично архивиране.&lt;br&gt; Следователно, потребителите, на които е изключено автоматичното архивиране, нямат и  PrivateSend включено. &lt;hr&gt;За повече информация вижте&lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1053,15 +1053,15 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
+        <source>Welcome to Bitcoin Flash.</source>
         <translation>Добре дошли в ядрото на Dash.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Flash will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Dash да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Flash will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Dash ще свали и съхрани копие на Dash регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1073,7 +1073,7 @@
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>Dash ядро</translation>
     </message>
     <message>
@@ -1219,7 +1219,7 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin Flash network, as detailed below.</source>
         <translation>Скорошните транзакции може да не са видими, поради което салдото на портфейла Ви може да е неправилно. Тази информация ще бъде правилна, след като портфейлът ви е завършил синхронизиране с Dash мрежата, както е описано по-долу.</translation>
     </message>
     <message>
@@ -1325,12 +1325,12 @@
         <translation>П&amp;ортфейл</translation>
     </message>
     <message>
-        <source>Automatically start Dash Core after logging in to the system.</source>
-        <translation>Автоматично стартиране на Dash Core след влизане в системата.</translation>
+        <source>Automatically start Bitcoin Flash after logging in to the system.</source>
+        <translation>Автоматично стартиране на Bitcoin Flash след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Dash Core on system login</source>
-        <translation>&amp;Стартиране на Dash Core при влизане</translation>
+        <source>&amp;Start Bitcoin Flash on system login</source>
+        <translation>&amp;Стартиране на Bitcoin Flash при влизане</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Тази сума действа като лимит, за да се изключи PrivateSend, когато веднъж бъде достигнат.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за Dash Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Bitcoin Flash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Bitcoin Flash клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1389,7 +1389,7 @@
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Bitcoin Flash network through a SOCKS5 proxy.</source>
         <translation>Свързване с мрежата на Dash чрез SOCKS5 прокси.</translation>
     </message>
     <message>
@@ -1401,8 +1401,8 @@
         <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dash Core.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Dash Core. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Flash.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Bitcoin Flash. </translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1473,7 +1473,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Bitcoin Flash network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Свързване с мрежата на Dash чрез SOCKS5 прокси за Tor скрити услуги.</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Flash network after a connection is established, but this process has not completed yet.</source>
         <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Dash мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
@@ -1694,8 +1694,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Количество и цикли:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Цикъла</translation>
+        <source>0 BTF / 0 Rounds</source>
+        <translation>0 BTF / 0 Цикъла</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Bitcoin Flash</source>
+        <translation>Bitcoin Flash</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,8 +1989,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Грешка при четене конфигурационният файл на masternode : %1</translation>
     </message>
     <message>
-        <source>Dash Core didn't yet exit safely...</source>
-        <translation>Dash Core все още не е приключило ...</translation>
+        <source>Bitcoin Flash didn't yet exit safely...</source>
+        <translation>Bitcoin Flash все още не е приключило ...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Използвана памет</translation>
     </message>
     <message>
-        <source>Open the Dash Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на Dash Core от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the Bitcoin Flash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на Bitcoin Flash от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Премахване на бан</translation>
     </message>
     <message>
-        <source>Welcome to the Dash Core RPC console.</source>
-        <translation>Добре дошли в Dash Core RPC конзолата.</translation>
+        <source>Welcome to the Bitcoin Flash RPC console.</source>
+        <translation>Добре дошли в Bitcoin Flash RPC конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2462,7 +2462,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Dash.</translation>
     </message>
     <message>
@@ -2474,7 +2474,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Dash.</translation>
     </message>
     <message>
@@ -2723,12 +2723,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>InstantSend</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако променената такса е 1000 satoshis и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 satoshis,,&lt;br /&gt; тогава"за последно" заплаща 1000 satoshis. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако променената такса е 1000 satoshis и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 satoshis,&lt;br /&gt; тогава"за последно" заплаща 1000 satoshis. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2998,7 +2998,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Flash network.</source>
         <translation>Съобщението което беше прикрепено към dash: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Dash мрежата.</translation>
     </message>
     <message>
@@ -3025,7 +3025,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
+        <source>Bitcoin Flash is shutting down...</source>
         <translation>Dash ядрото се изключва...</translation>
     </message>
     <message>
@@ -3179,7 +3179,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>Dash Ядро</translation>
     </message>
     <message>
@@ -3191,7 +3191,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
+        <source>The Dash Core Developers</source>
         <translation>Водещи Dash разработчици</translation>
     </message>
 </context>
@@ -3735,8 +3735,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Изпращане</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend не поддържа толкова високи стойности за изпращане все още. Транзакциите в момента са ограничени до %1 DASH.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
+        <translation>InstantSend не поддържа толкова високи стойности за изпращане все още. Транзакциите в момента са ограничени до %1 BTF.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
@@ -3789,7 +3789,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Flash is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. Dash ядрото вече работи.</translation>
     </message>
     <message>
@@ -3829,7 +3829,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Bitcoin Flash is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. Dash ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -4073,8 +4073,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 DASH.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 BTF.</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
@@ -4146,7 +4146,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Запазени права (C) 2014-%i Dash Core разработчиците</translation>
+        <translation>Запазени права (C) 2014-%i Bitcoin Flash разработчиците</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Грешка при зареждане %s: Не може да изключите HD на вече съществуващ HD портфейл</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Dash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Flash</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Bitcoin Flash</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,7 +4225,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <source>Initialization sanity check failed. Bitcoin Flash is shutting down.</source>
         <translation>Инициализационната проверка не успешна. Dash ядрото се изключва.</translation>
     </message>
     <message>
@@ -4481,7 +4481,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>User Agent comment (%s) съдържа опасни символи.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Bitcoin Flash to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте Dash за да завършите</translation>
     </message>
     <message>
@@ -4525,7 +4525,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>KeePassHttp ключ за  AES криптирана връзка с KeePass</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
+        <source>Keep N BTF anonymized (default: %u)</source>
         <translation>Поддържай N Dash анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
@@ -4585,8 +4585,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Ако &lt;category&gt; не е предоставена или ако &lt;category&gt; = 1, изведи цялата информация за отстраняване на грешки.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend не поддържа толкова високи стойности за изпращане все още. Транзакциите в момента са ограничени до %1 DASH.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
+        <translation>InstantSend не поддържа толкова високи стойности за изпращане все още. Транзакциите в момента са ограничени до %1 BTF.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Максимална крайна такса (в %s) използвана в единична транзакция, ако е зададена твърде малка, няма да бъдат възможни големи транзакции (по подразбиране: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
-        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Dash Core няма да работи правилно.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Flash will not work properly.</source>
+        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Bitcoin Flash няма да работи правилно.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -4673,8 +4673,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Не са намерени достатъчно PrivateSend деноминирани средства за тази транзакция.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Не са намерени достатъчно PrivateSend неденоминирани средства за тази транзакция, които не са равни на 1000 DASH.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>Не са намерени достатъчно PrivateSend неденоминирани средства за тази транзакция, които не са равни на 1000 BTF.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

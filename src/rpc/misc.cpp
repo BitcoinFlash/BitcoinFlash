@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Dash Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -600,7 +600,7 @@ UniValue getaddressmempool(const UniValue& params, bool fHelp)
             "    \"address\"  (string) The base58check encoded address\n"
             "    \"txid\"  (string) The related txid\n"
             "    \"index\"  (number) The related input or output index\n"
-            "    \"satoshis\"  (number) The difference of duffs\n"
+            "    \"satoshis\"  (number) The difference of satoshis\n"
             "    \"timestamp\"  (number) The time the transaction entered the mempool (seconds)\n"
             "    \"prevtxid\"  (string) The previous txid (if spending)\n"
             "    \"prevout\"  (string) The previous transaction output index (if spending)\n"
@@ -672,7 +672,7 @@ UniValue getaddressutxos(const UniValue& params, bool fHelp)
             "    \"txid\"  (string) The output txid\n"
             "    \"outputIndex\"  (number) The output index\n"
             "    \"script\"  (string) The script hex encoded\n"
-            "    \"satoshis\"  (number) The number of duffs of the output\n"
+            "    \"satoshis\"  (number) The number of satoshis of the output\n"
             "    \"height\"  (number) The block height\n"
             "  }\n"
             "]\n"
@@ -737,7 +737,7 @@ UniValue getaddressdeltas(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "[\n"
             "  {\n"
-            "    \"satoshis\"  (number) The difference of duffs\n"
+            "    \"satoshis\"  (number) The difference of satoshis\n"
             "    \"txid\"  (string) The related txid\n"
             "    \"index\"  (number) The related input or output index\n"
             "    \"blockindex\"  (number) The related block index\n"
@@ -822,8 +822,8 @@ UniValue getaddressbalance(const UniValue& params, bool fHelp)
             "}\n"
             "\nResult:\n"
             "{\n"
-            "  \"balance\"  (string) The current balance in duffs\n"
-            "  \"received\"  (string) The total number of duffs received (including change)\n"
+            "  \"balance\"  (string) The current balance in satoshis\n"
+            "  \"received\"  (string) The total number of satoshis received (including change)\n"
             "}\n"
             "\nExamples:\n"
             + HelpExampleCli("getaddressbalance", "'{\"addresses\": [\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\"]}'")

@@ -176,7 +176,7 @@
         <translation>确认加密钱包</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTF&lt;/b&gt;!</source>
         <translation>警告:如果把钱包加​​密后又忘记密码，你就会从此&lt;b&gt;失去所有的达世币了&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -283,11 +283,11 @@
         <translation>退出程序</translation>
     </message>
     <message>
-        <source>&amp;About Dash Core</source>
+        <source>&amp;About Bitcoin Flash</source>
         <translation>&amp;关于达世币核心</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
+        <source>Show information about Bitcoin Flash</source>
         <translation>显示关于达世币核心信息</translation>
     </message>
     <message>
@@ -451,7 +451,7 @@
         <translation>&amp;命令行 选项</translation>
     </message>
     <message>
-        <source>Dash Core client</source>
+        <source>Bitcoin Flash client</source>
         <translation>达世币核心客户端</translation>
     </message>
     <message numerus="yes">
@@ -463,7 +463,7 @@
         <translation>正在同步附加数据:%p%</translation>
     </message>
     <message>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
+        <source>Show the Bitcoin Flash help message to get a list with possible Dash command-line options</source>
         <translation>打开达世币核心帮助信息取得可使用的命令行列表</translation>
     </message>
     <message>
@@ -487,7 +487,7 @@
         <translation>分页工具栏</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Bitcoin Flash network</source>
         <translation><numerusform>%n 已连接至达世币网络</numerusform></translation>
     </message>
     <message>
@@ -761,8 +761,8 @@ Address: %4
         <translation>中高</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>每笔输入可能会有 +/- %1个duff(s)的偏差.</translation>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>每笔输入可能会有 +/- %1个satoshi(s)的偏差.</translation>
     </message>
     <message>
         <source>n/a</source>
@@ -864,11 +864,11 @@ Address: %4
         <translation>请选择隐私等级。</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 BTF</source>
         <translation>使用2个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 BTF</source>
         <translation>使用8个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
@@ -876,15 +876,15 @@ Address: %4
         <translation>使用16个独立主节点</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
+        <source>This option is the quickest and will cost about ~0.025 BTF to anonymize 1000 BTF</source>
         <translation>此选项为最快速度，需要支付0.025达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
+        <source>This option is moderately fast and will cost about 0.05 BTF to anonymize 1000 BTF</source>
         <translation>此选项为一般速度，需要支付0.05达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
+        <source>0.1 BTF per 1000 BTF you anonymize.</source>
         <translation>0.1达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -1001,7 +1001,7 @@ Address: %4
         <translation>(%1 位)</translation>
     </message>
     <message>
-        <source>About Dash Core</source>
+        <source>About Bitcoin Flash</source>
         <translation>关于 达世币核心</translation>
     </message>
     <message>
@@ -1049,15 +1049,15 @@ Address: %4
         <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to Dash Core.</source>
+        <source>Welcome to Bitcoin Flash.</source>
         <translation>欢迎来到达世币核心。</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Flash will store its data.</source>
         <translation>此次为第一次程序启动，你可以选择储存达世币核心数据的路径。</translation>
     </message>
     <message>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Flash will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>达世币核心将会下载并存储达世币数据链。至少有%1GB的数据会保存到此路径下，并且随着时间增长。钱包文件也将存储到此路径下。</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Address: %4
         <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -1175,7 +1175,7 @@ Address: %4
         <translation>接受外来链接</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Bitcoin Flash network through a SOCKS5 proxy.</source>
         <translation>通过SOCKS5代理链接达世币网络。</translation>
     </message>
     <message>
@@ -1348,7 +1348,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Flash network after a connection is established, but this process has not completed yet.</source>
         <translation>显示信息也许已过期。当与达世币网络连接后钱包程序会自动同步，但现在还未完成。</translation>
     </message>
     <message>
@@ -1432,7 +1432,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>数量与循环次数:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
+        <source>0 BTF / 0 Rounds</source>
         <translation>0 达世币 / 0 循环数</translation>
     </message>
     <message>
@@ -1457,7 +1457,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>您向主节点所提交的用以面额化混合的DASH,&lt;br&gt;当其他用户提交相同的面额化DASH数量时,将开始混合.</translation>
+        <translation>您向主节点所提交的用以面额化混合的BTF,&lt;br&gt;当其他用户提交相同的面额化BTF数量时,将开始混合.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
@@ -2028,7 +2028,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>重用现有的接收地址（不推荐）</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。注意: 这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
@@ -2040,7 +2040,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>可为新建的收款地址添加一个标签。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Flash network.</source>
         <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。&lt;br&gt;注意: 这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
@@ -2277,15 +2277,15 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>最小化</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>
-如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"至少"会支付1000 duffs.
+如果自定手续费设定为1000 satoshis,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 satoshis的手续费,&lt;br /&gt;而"至少"会支付1000 satoshis.
 但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee,&lt;br /&gt;while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>
-如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"总共至少"会支付1000 duffs.
+如果自定手续费设定为1000 satoshis,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 satoshis的手续费,&lt;br /&gt;而"总共至少"会支付1000 satoshis.
 但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>
@@ -2552,7 +2552,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>消息：</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Flash network.</source>
         <translation>附加在达世币付款协议URI中的信息,会和交易内容一并存储,可供您参考.提示:此信息不会发送到达世币网络上.</translation>
     </message>
     <message>
@@ -2579,7 +2579,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dash Core is shutting down...</source>
+        <source>Bitcoin Flash is shutting down...</source>
         <translation>达世币核心正在关闭...</translation>
     </message>
     <message>
@@ -2729,7 +2729,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dash Core</source>
+        <source>Bitcoin Flash</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -2741,7 +2741,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Bitcoin Core 的开发者</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
+        <source>The Bitcoin Flash developers</source>
         <translation>达世币核心开发人员</translation>
     </message>
     <message>
@@ -3257,7 +3257,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>发送达世币</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 BTF.</source>
         <translation>即时支付功能目前还不支持发送如此高的金额.目前限制在%1 达世币.</translation>
     </message>
 </context>
@@ -3307,7 +3307,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>与提供地址绑定，持续监听。使用[host]:标记IPv6端口</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Flash is probably already running.</source>
         <translation>不能获得锁定的数据目录 %s. 达世币核心可能已经在运行。</translation>
     </message>
     <message>
@@ -3339,16 +3339,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>即时支付功能需要6步确认，您可以稍后重试。</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Bitcoin Flash is probably already running.</source>
         <translation>无法绑定%s此计算机. 达世币核心应该已经在运行中了.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>无法找到足够的已匿名化资金来完成交易,不足1000 DASH.</translation>
+        <translation>无法找到足够的已匿名化资金来完成交易,不足1000 BTF.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>无法找到足够的未匿名化资金来完成交易,不足1000 DASH.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>无法找到足够的未匿名化资金来完成交易,不足1000 BTF.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3543,11 +3543,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>允许存储在这个钱包内的资金自动使用匿名发送(0-1, 默认: %u)</translation>
     </message>
     <message>
-        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in BTF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation>如果手续费比这个值低,就视为没有付手续费(当产生交易时)(默认: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in BTF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>如果手续费比这个值低,就视为没有付手续费(当产生交易时)(默认: %s)</translation>
     </message>
     <message>
@@ -3591,8 +3591,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>此产品包括了由OpenSSL Project所开发的OpenSSL Toolkit 软件&lt;https://www.openssl.org/&gt;, 和由Eric Young 编写的加密软件, 以及由Thomas Bernard 编写的UPnP软件.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>无法找到足够的资金完成交易,不足1000 DASH.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 BTF.</source>
+        <translation>无法找到足够的资金完成交易,不足1000 BTF.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3603,7 +3603,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>警告: -maxtxfee 设定的金额过高! 这是一次交易就要支付的手续费.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Flash will not work properly.</source>
         <translation>警告: 请检查电脑日期和时间是否正确！达世币核心没办法在时钟不准的情况下正常运作。</translation>
     </message>
     <message>
@@ -3653,8 +3653,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>版权(C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>版权 (C) 2014-%i The Dash Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Bitcoin Flash Developers</source>
+        <translation>版权 (C) 2014-%i The Bitcoin Flash Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3685,7 +3685,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>连接到主节点时发生错误.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Flash</source>
         <translation>读取钱包文件错误: 需要较为新版本的达世币核心来读取钱包</translation>
     </message>
     <message>
@@ -3742,7 +3742,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>信息</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <source>Initialization sanity check failed. Bitcoin Flash is shutting down.</source>
         <translation>初始化检查失败。达世币核心正在关闭。</translation>
     </message>
     <message>
@@ -3938,7 +3938,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>断开的作弊节点临界值(默认: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Bitcoin Flash to complete</source>
         <translation>錢包需要重寫: 請重新啓動達世幣核心來完成
 钱包需要重写: 请重新启动达世币核心来完成</translation>
     </message>
@@ -3987,7 +3987,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>检测到无效脚本。</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
+        <source>Keep N BTF anonymized (default: %u)</source>
         <translation>保持定量达世币匿名化(默认: %u)</translation>
     </message>
     <message>

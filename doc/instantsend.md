@@ -27,13 +27,13 @@ When a wallet InstantSend transaction is successfully locked a shell command pro
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the Dash Core daemon will launch using the following constant:
+By default, the Bitcoin Flash daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_INSTANTSEND_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the Dash Core daemon:
+This value can be overridden by passing the following argument to the Bitcoin Flash daemon:
 
 ```
 -instantsenddepth=<n>

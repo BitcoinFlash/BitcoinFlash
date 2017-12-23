@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Dash Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,7 +51,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "Dash"
 #define QAPP_ORG_DOMAIN "dash.org"
-#define QAPP_APP_NAME_DEFAULT "Dash-Qt"
-#define QAPP_APP_NAME_TESTNET "Dash-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Bitcoinflash-qt"
+#define QAPP_APP_NAME_TESTNET "Bitcoinflash-qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

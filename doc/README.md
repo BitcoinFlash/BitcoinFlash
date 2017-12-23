@@ -1,7 +1,7 @@
-Dash Core 0.12.1
+Bitcoin Flash 0.12.1
 =====================
 
-This is the official reference wallet for Dash digital currency and comprises the backbone of the Dash peer-to-peer network. You can [download Dash Core](https://www.dash.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Dash digital currency and comprises the backbone of the Dash peer-to-peer network. You can [download Bitcoin Flash](https://www.dash.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -11,16 +11,16 @@ The following are some helpful notes on how to run Dash on your native platform.
 
 Unpack the files into a directory and run:
 
-- `bin/dash-qt` (GUI) or
-- `bin/dashd` (headless)
+- `bin/bitcoinflash-qt` (GUI) or
+- `bin/bitcoinflashd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run dash-qt.exe.
+Unpack the files into a directory, and then run bitcoinflash-qt.exe.
 
 ### OS X
 
-Drag Dash-Qt to your applications folder, and then run Dash-Qt.
+Drag Bitcoinflash-qt to your applications folder, and then run Bitcoinflash-qt.
 
 ### Need Help?
 
@@ -31,7 +31,7 @@ for help and more information.
 
 Building
 ---------------------
-The following are developer notes on how to build Dash Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Bitcoin Flash on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Dash Core on your native platf
 
 Development
 ---------------------
-The Dash Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Bitcoin Flash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

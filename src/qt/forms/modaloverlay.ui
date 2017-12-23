@@ -128,7 +128,7 @@
              <item>
               <widget class="QLabel" name="infoText">
                <property name="text">
-                <string>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</string>
+                <string>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin Flash network, as detailed below.</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>

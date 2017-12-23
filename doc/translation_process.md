@@ -1,7 +1,7 @@
 Translations
 ============
 
-The Dash Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Dash Core makes use of the Transifex online translation management tool.
+The Bitcoin Flash project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Bitcoin Flash makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the Github repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
@@ -22,7 +22,7 @@ cd src/
 make translate
 ```
 
-`contrib/dash-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/bitcoinflash-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp

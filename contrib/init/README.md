@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: bitcoinflashd.service
+Upstart: bitcoinflashd.conf
+OpenRC:  bitcoinflashd.openrc
+         bitcoinflashd.openrcconf
+CentOS:  bitcoinflashd.init
+OS X:    org.dash.bitcoinflashd.plist
 
 have been made available to assist packagers in creating node packages here.
 
